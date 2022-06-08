@@ -4,7 +4,6 @@ module com.calculator {
 
     requires validatorfx;
     requires org.kordamp.bootstrapfx.core;
-
     opens com.calculator to javafx.fxml;
     exports com.calculator;
 }
